@@ -31,22 +31,41 @@
 </p>
 
 <!-- Dark mode toggle -->
-<div align="center">
-  <label for="darkModeCheckbox">Toggle Dark Mode</label>
-  <input type="checkbox" id="darkModeCheckbox">
-</div>
+<script>
+  const darkModeToggle = document.getElementById("darkModeCheckbox");
+  const body = document.body;
 
-<!-- My Projects section -->
-<h3 align="center">My Projects:</h3>
-<p align="center">Check out my latest project, <a href="#" style="color: #64b5f6;">Abvss Car Showroom</a>, where I showcase stunning cars!</p>
+  darkModeToggle.addEventListener("change", () => {
+    if (darkModeToggle.checked) {
+      body.classList.add("dark-mode");
+    } else {
+      body.classList.remove("dark-mode");
+    }
+  });
+</script>
 
-<!-- Contact Information section -->
-<h3 align="center">Contact Information:</h3>
-<p align="center">If you have any questions or would like to collaborate, feel free to reach out to me at <a href="mailto:abdulabass1738@gmail.com" style="color: #64b5f6;">abdulabass1738@gmail.com</a>.</p>
+<style>
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
-<!-- GitHub Stats -->
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=abvss13&show_icons=true&locale=en&layout=compact" alt="Top Languages" /></p>
+  /* Light mode styles */
+  body:not(.dark-mode) {
+    background-color: #ffffff; /* Light background color */
+    color: #000000; /* Dark text color */
+  }
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=abvss13&show_icons=true&locale=en" alt="GitHub Stats" /></p>
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
 
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=abvss13" alt="GitHub Streak Stats" /></p>
+  /* Rest of the styles */
+  /* ... (Keep your existing styles here) ... */
+</style>
+
+<!-- Continue with your existing content -->
