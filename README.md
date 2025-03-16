@@ -7,13 +7,12 @@
 
 <p align="left"> <a href="https://twitter.com/abvss_1300" target="blank"><img src="https://img.shields.io/twitter/follow/abvss_1300?logo=twitter&style=for-the-badge" alt="abvss_1300" /></a> </p>
 
-- 🔭 I’m currently working at Power Learn Project.
+- 🔭 I’m working at Power Learn Project.
 
-- 🌱 I’m currently learning **React Native and Cyber Security**
+- 🌱 I’m learning **React Native and Cyber Security**
 
 - 👯 I’m looking to collaborate on [Dynamic Cruisers](https://github.com/abvss13/DynamicCruisers)
 
-- 🤝 I’m looking for help with [Dynamic Cruisers](https://github.com/abvss13/DynamicCruisers)
 
 - 👨‍💻 All of my projects are available at [https://github.com/abvss13](https://github.com/abvss13)
 
